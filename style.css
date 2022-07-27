@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-form{
+  background: black;
+  color: white;
+  height: 80vh;
+  width: 70vw;
+  margin: 1em auto;
+  text-align: center;
+  padding: 1em;
+}
+.mobile{
+  display: flex;
+}
+.imgdiv{
+  width: 30px;
+  height: 30px;
+}
