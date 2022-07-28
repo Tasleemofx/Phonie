@@ -12,21 +12,22 @@
 
 <body>
   <nav class="nav">
-    <div class="back-icon"><i class="fa-light fa-angles-left"></i></div>
+    <h4>Super-Circle-231 Phoenie App...</h4>
+    <h4>Feel the magic!</h4>
+    <p class="phoenie-desc">Use the program to determine network provider of a phone number</p>
   </nav>
   <main>
     <section class="phoenie-form">
-      <h4>Super-Circle-231 Phoenie App...</h4>
-      <h4>Feel the magic!</h4>
-      <p class="phoenie-desc">Use the program to determine network provider of a phone number</p>
+
 
       <form method="post" class="contact-form">
         <label>First Name</label>
         <input type="text" placeholder="First name" required>
         <br />
-        <label>Last Name</label>
+        <div>
+          <label id="lastName">Last Name</label>
 
-        <input type="text" placeholder="Last name" required>
+          <input type="text" placeholder="Last name" required>
         </div>
         </div>
         <div class="txt_field email-input">
@@ -34,16 +35,19 @@
           <input id="email" type="text" placeholder="Email" required>
 
         </div>
-        <div class="mobile">
+        <div class="mobile_div">
           <label>Mobile No.</label>
-          <input type="text" placeholder="08012345678" class="phone_no" />
+          <input type="text" placeholder="Phone number" class="phone_no" />
+
+        </div>
+        <div class="mobile_error">
         </div>
         <div class="txt_field password">
           <label for="password">Password</label>
           <input id="password" type="password" placeholder="Password" required>
         </div>
         <div class="submit">
-          <input type="button" value="Submit" class="submit_btn" />
+          <button class="submit_btn">Submit</button>
         </div>
         </div>
       </form>

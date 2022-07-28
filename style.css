@@ -3,20 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.nav{
+  text-align: center;
+}
+input{
+  padding: 5px;
+  margin: 0.5em;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
 .contact-form{
   background: black;
   color: white;
   height: 80vh;
-  width: 70vw;
+  width: 85vw;
   margin: 1em auto;
   text-align: center;
   padding: 1em;
 }
-.mobile{
+
+#lastName {
+  margin-top: 5px;
+}
+.submit {
+  margin-top: 20px;
+}
+
+.txt_field password {
+  margin-top: 15px;
+}
+.mobile_div{
   display: flex;
 }
+
 .imgdiv{
-  width: 30px;
+  width: 40px;
   height: 30px;
+  border-radius: 50%;
+}
+.submit_btn{
+  background: red;
+  color: white;
+  padding: 0.5em;
+  border-radius: 10px;
 }
