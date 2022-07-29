@@ -23,22 +23,25 @@ function startApp() {
       mobileValue.startsWith("0801") ||
       mobileValue.startsWith("0810")) {
       mobileError.innerHTML = ""
+      mobileBlock.innerHTML = ""
       imgItem.src = 'https://th.bing.com/th/id/OIP.p4hAOrVbBF7fCt0nZ-WIKwAAAA?w=147&h=150&c=7&r=0&o=5&pid=1.7';
       imgdiv.append(imgItem)
       mobileBlock.appendChild(imgdiv);
-    }
-    else if (mobileValue.startsWith('0805') ||
+    } else if (
+      mobileValue.startsWith('0805') ||
       mobileValue.startsWith('0705') ||
       mobileValue.startsWith('0807') ||
       mobileValue.startsWith('0815') ||
       mobileValue.startsWith('0811') ||
-      mobileValue.startsWith('0905')) {
+      mobileValue.startsWith('0905')
+    ) {
       mobileError.innerHTML = ""
+      mobileBlock.innerHTML = ""
       imgItem.src = 'https://th.bing.com/th/id/OIP.nqZEAhrrzB_KQtEIlWdNUAHaHJ?pid=ImgDet&rs=1';
       imgdiv.append(imgItem)
       mobileBlock.appendChild(imgdiv);
-    }
-    else if (mobileValue.startsWith('0802') ||
+    } else if (
+      mobileValue.startsWith('0802') ||
       mobileValue.startsWith('0808') ||
       mobileValue.startsWith('0812') ||
       mobileValue.startsWith('0901') ||
@@ -47,14 +50,17 @@ function startApp() {
       mobileValue.startsWith('0708') ||
       mobileValue.startsWith('0907')) {
       mobileError.innerHTML = ""
+      mobileBlock.innerHTML = ""
       imgItem.src = 'https://i1.wp.com/pctechmag.com/wp-content/uploads/2012/09/airtel-logo.jpg';
       imgdiv.append(imgItem)
       mobileBlock.appendChild(imgdiv);
-    } else if (mobileValue.startsWith('0809') ||
+    } else if (
+      mobileValue.startsWith('0809') ||
       mobileValue.startsWith('0909') ||
       mobileValue.startsWith('0817') ||
       mobileValue.startsWith('0818')) {
       mobileError.innerHTML = ""
+      mobileBlock.innerHTML = ""
       imgItem.src = 'https://theeagleonline.com.ng/wp-content/uploads/2017/07/9-Mobile-Logo-Portrait-1.jpg';
 
       imgdiv.append(imgItem)
@@ -62,6 +68,7 @@ function startApp() {
     } else {
       const para = document.createElement('p');
       mobileError.innerHTML = ""
+      mobileBlock.innerHTML = ""
       para.innerText = "Error! Network type does not exist";
       para.classList.add('error');
       mobileError.appendChild(para)
