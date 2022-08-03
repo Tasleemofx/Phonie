@@ -8,6 +8,7 @@
 }
 input{
   padding: 5px;
+  text-align: center;
   margin: 0.5em 0.2em;
   outline: none;
   border: none;
@@ -49,4 +50,16 @@ input{
   color: white;
   padding: 0.5em;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 700px){
+  .contact-form{
+  background: black;
+  color: white;
+  height: 50vh;
+  width: 30vw;
+  margin: 1em auto;
+  text-align: center;
+  padding: 1em;
+}
 }
